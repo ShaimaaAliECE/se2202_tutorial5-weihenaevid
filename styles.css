@@ -1,0 +1,24 @@
+table {
+    width: 300px;
+    height: 300px;
+}
+
+.buttonClass{
+    width: 150px;
+    height: 150px;
+    background-color: olivedrab;
+    color: ivory;
+    border-radius: 15px;
+    font-size: x-large;
+    text-align: center;
+}
+.buttonClass:hover {
+    background-color: #275828
+}
+
+.buttonClass:active {
+  background-color: rgb(11, 15, 2);
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
